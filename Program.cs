@@ -6,7 +6,7 @@ namespace Songs
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
         }
     }
 }
