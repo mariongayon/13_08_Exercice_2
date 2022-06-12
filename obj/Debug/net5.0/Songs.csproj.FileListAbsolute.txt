@@ -1,0 +1,16 @@
+C:\Users\Administrateur\source\repos\13_06_Exercice_2\Songs\bin\Debug\net5.0\Songs.exe
+C:\Users\Administrateur\source\repos\13_06_Exercice_2\Songs\bin\Debug\net5.0\Songs.deps.json
+C:\Users\Administrateur\source\repos\13_06_Exercice_2\Songs\bin\Debug\net5.0\Songs.runtimeconfig.json
+C:\Users\Administrateur\source\repos\13_06_Exercice_2\Songs\bin\Debug\net5.0\Songs.runtimeconfig.dev.json
+C:\Users\Administrateur\source\repos\13_06_Exercice_2\Songs\bin\Debug\net5.0\Songs.dll
+C:\Users\Administrateur\source\repos\13_06_Exercice_2\Songs\bin\Debug\net5.0\ref\Songs.dll
+C:\Users\Administrateur\source\repos\13_06_Exercice_2\Songs\bin\Debug\net5.0\Songs.pdb
+C:\Users\Administrateur\source\repos\13_06_Exercice_2\Songs\obj\Debug\net5.0\Songs.csproj.AssemblyReference.cache
+C:\Users\Administrateur\source\repos\13_06_Exercice_2\Songs\obj\Debug\net5.0\Songs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrateur\source\repos\13_06_Exercice_2\Songs\obj\Debug\net5.0\Songs.AssemblyInfoInputs.cache
+C:\Users\Administrateur\source\repos\13_06_Exercice_2\Songs\obj\Debug\net5.0\Songs.AssemblyInfo.cs
+C:\Users\Administrateur\source\repos\13_06_Exercice_2\Songs\obj\Debug\net5.0\Songs.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\source\repos\13_06_Exercice_2\Songs\obj\Debug\net5.0\Songs.dll
+C:\Users\Administrateur\source\repos\13_06_Exercice_2\Songs\obj\Debug\net5.0\ref\Songs.dll
+C:\Users\Administrateur\source\repos\13_06_Exercice_2\Songs\obj\Debug\net5.0\Songs.pdb
+C:\Users\Administrateur\source\repos\13_06_Exercice_2\Songs\obj\Debug\net5.0\Songs.genruntimeconfig.cache
