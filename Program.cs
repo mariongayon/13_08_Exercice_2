@@ -4,6 +4,7 @@ using System.Linq;
 
 namespace Songs
 {
+
     class Program
     {
         static void Main(string[] args)
@@ -11,21 +12,26 @@ namespace Songs
             var fichier = File.ReadAllLines(@"C:\Users\Administrateur\source\repos\13_06_Exercice_2\Songs\SongCSV.csv");
 
             var SongData = fichier.Skip(1).Select(x => x.Split(',')).ToList();
-            
 
-            SongData.Select(x => x[19]).GroupBy(
+            // number of songs by year
+            var SongByYear = SongData.Select(x => x[17]).GroupBy(
                 x => x,
                 x => x,
-                (year, _) => new Tuple<string, int>
+                (year, x) => new Tuple<string, int>
                     (year,
-                    year.Count()
+                    x.Count()
                     )
-                ).OrderBy(x => x.Item1).Select(x =>
+                ).OrderBy(x => x.Item2).Reverse().Skip(1).Select(x =>
                     {
-                        Console.WriteLine(x.Item1);
+                        Console.WriteLine(x.Item1 + ":" + x.Item2);
                         return x;
                     }
                 ).ToList();
+
+            // Year with more songs but I didn't find how to select the year and then the number of song
+            Console.WriteLine($"The year with more musics is { SongByYear.First()}");
+
+            // number of albums by year
             
         }
     }
