@@ -6,7 +6,22 @@ using System.Threading.Tasks;
 
 namespace Songs
 {
-    class Band
+    public class Band : ICreation
     {
+        Artist implementation;
+
+        public Band(int numberOfMusic, int numberOfAlbum) {
+            implementation = new Artist(numberOfMusic, numberOfAlbum);
+        }
+
+        public int NumberOfAlbum()
+        {
+            throw new NotImplementedException();
+        }
+
+        public int NumberOfMusic()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

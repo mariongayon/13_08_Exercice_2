@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace Songs
 {
-    public class Track 
-  
+    public interface ICreation
     {
+        int NumberOfMusic();
+        int NumberOfAlbum();
     }
 }
